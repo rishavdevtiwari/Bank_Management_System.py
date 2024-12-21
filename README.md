@@ -123,7 +123,7 @@ Contributions, issues, and feature requests are welcome! Feel free to fork this 
 
 For any questions or feedback, you can reach out to me at:
 
-- **GitHub Profile:** [Your GitHub Username](https://github.com/rishavdevtiwari)
+- **GitHub Profile:** [rishavdevtiwari](https://github.com/rishavdevtiwari)
 - **Email:** [rishavtiwari.ai@gmail.com]
 
 ---
