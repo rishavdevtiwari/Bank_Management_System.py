@@ -67,7 +67,7 @@ You may choose to proceed with previous versions of python.
 ## Project Structure
 
 ```
-├── bank_management_system.py  # Main Python program
+├── bank_management_system_using_python.py  # Main Python program
 └── README.md                  # Documentation for the repository
 ```
 
@@ -127,7 +127,5 @@ For any questions or feedback, you can reach out to me at:
 - **Email:** [rishavtiwari.ai@gmail.com]
 
 ---
-
-Let me know if you'd like any additional changes to this README! 😊
 
 <a href="https://github.com/rishavdevtiwari">©rishavdevtiwari</a>
