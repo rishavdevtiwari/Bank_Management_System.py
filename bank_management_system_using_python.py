@@ -21,11 +21,10 @@ else:
             if choice == '1':
                 print(f"Your current balance is {current_balance}")
             elif choice == '2':
-                amount = input("Enter the amount to withdraw: ")
-                if not amount.isdigit() or int(amount) <= 0:
+                amount = int(input("Enter the amount to withdraw: "))
+                if amount <= 0:
                     print("Invalid amount. Please enter a positive number.")
                 else:
-                    amount = int(amount)
                     if amount > current_balance:
                         print("Insufficient balance.")
                     else:
@@ -35,11 +34,10 @@ else:
                         print(f"Withdrawn amount: {amount}")
                         print(f"Remaining balance: {current_balance}")
             elif choice == '3':
-                amount = input("Enter the amount to deposit: ")
-                if not amount.isdigit() or int(amount) <= 0:
+                amount = int(input("Enter the amount to deposit: "))
+                if amount <= 0:
                     print("Invalid amount. Please enter a positive number.")
                 else:
-                    amount = int(amount)
                     current_balance += amount
                     transaction_history.append(f"Deposited: {amount}")
                     #stores the argument passed in append() into transaction_history
